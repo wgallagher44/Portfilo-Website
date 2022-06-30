@@ -1,0 +1,22 @@
+.coding-logo{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-top: 10rem;
+  overflow: hidden;
+  border: 5px solid #D66E5C;
+  display:inline-block;
+  vertical-align:middle;
+}
+.coding-title{
+  
+align-items: center;
+justify-content: center;
+
+}
+.coding{
+border: white;
+ display: flex;
+  flex-direction: column;
+
+}

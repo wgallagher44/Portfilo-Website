@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+  --primary:#282c34;
+  --secondary:#D66E5C;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.header{
+  position: relative;
+   background-color: var(--primary);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.header>button{
+  all:unset;
+  cursor: pointer;
+}
+.header-name{
+  color: var(--secondary) ;
+}
+.header>button:hover {
+  color: var(--secondary);
+}
+.main{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../src/Images/mountains.jpg");
+}
+.main-image{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 10rem;
+  overflow: hidden;
+  border: 5px solid var(--primary);
+  display:inline-block;
+  vertical-align:middle;
+}
+.main-img>img{
+  width: 100%;
+}
+.main-name{
+  margin-top: 6rem;
+}
+.main-title{
+  margin-top: 6rem;
+}
+.skills{
+ display:grid;
+  margin-top:2rem;
+  justify-content: center;
+  grid-template-columns: repeat(3,30rem);
+  grid-template-rows: minmax(2rem,auto) repeat(2,40rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
