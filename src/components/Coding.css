@@ -1,22 +1,42 @@
 .coding-logo{
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
+  width: 300px;
+  height: 275px;
+  background-color: white;
+  border-radius: 100% ;
   margin-top: 10rem;
   overflow: hidden;
-  border: 5px solid #D66E5C;
+  border: 3px solid #121e26;
   display:inline-block;
   vertical-align:middle;
 }
 .coding-title{
   
-align-items: center;
-justify-content: center;
+color:var(--primary);
+font-family: var(--headFont);
+font-size: 25px;
 
+}
+.coding-desc{
+  color:var(--primary);
+  font-family: var(--textFont);
+  font-size: 20px;
+  max-width: 40ch;
+  
 }
 .coding{
 border: white;
  display: flex;
   flex-direction: column;
+  align-items: center;
 
+}
+*{
+  box-sizing: border-box;
+  --primary:#121e26;
+  --secondary: #283635; 
+  --light: #f4efeb;
+  --normal:#d2c0b2;
+  --clay:#9d6556;
+  --textFont:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --headFont: 'Verdana', 'Geneva', 'Tahoma, sans-serif';
 }

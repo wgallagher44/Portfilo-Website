@@ -3,21 +3,21 @@ import AboutPhoto from "../Images/about_photo.jpg"
 function AboutMe(){
 
 return (
-    <div>
-        <img src={AboutPhoto}></img>
-        <div>
+    <section id = "About" className="about">
+        <img src={AboutPhoto} className = "about-photo"></img>
+        <div className="about-section">
 
        
-        <h1>About Me</h1>
+        <h1 className="about-title">About Me</h1>
 
-        <div>I’m a Computer Science major and math minor at Bloomsburg University
+        <div className="about-desc">I’m a Computer Science major and math minor at Bloomsburg University
             . My interests 
             include software design and development
             ,web development and mobile development. 
             In my free time I like to work on coding projects
             , play disc golf and play video games.</div>
-        <h2>Activities</h2> 
-        <ul>
+        <h2 className="about-act">Activities</h2> 
+        <ul className="about-list">
          <li>Captain of Bloomsburg Club Ultimate Frisbee team </li>   
          <li>Treasure of Association for Computing Machinery </li>
          <li>Placed 15th in CCSCNE programming competition </li>  
@@ -26,10 +26,10 @@ return (
          <li>Concert Choir</li>
          <li>Leading tones</li>
             
-            </ul>   
+        </ul>   
         </div>
 
-    </div>
+    </section>
 
 );
 }

@@ -1,19 +1,20 @@
 import React from "react";
-
+import resume from "../Images/SummerIntership2022_GallagherFinal.pdf"
+import script from "./script"
 function Header(){
     return(
-        <navbar className="header">
+        <header className="header">
             <h3 className="header-name">Will Gallagher</h3>
          
-            <button>About</button>
-            <button>Skills</button>
-            <button>Projects</button>
-            <button>Contact Me</button>
-            <button>Resume</button>
-       
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact Me">Contact Me</a>
+            <a href = {resume} download="resume-gallagher">Resume</a>
             
-        </navbar>
-
+            
+        </header>
+        
 
     );
 }

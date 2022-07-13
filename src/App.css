@@ -1,31 +1,40 @@
 *{
   box-sizing: border-box;
-  --primary:#282c34;
-  --secondary:#D66E5C;
+  --primary:#121e26;
+  --secondary: #283635; 
+  --light: #f4efeb;
+  --normal:#d2c0b2;
+  --clay:#9d6556;
+  --textFont:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --headFont: 'Verdana', 'Geneva', 'Tahoma, sans-serif';
 }
 body{
   margin: 0px;
   padding: 0px;
+  background-color: #121e26;
 }
 .header{
-  position: relative;
-   background-color: var(--primary);
+  
+  top: 0;
+   background-color: var(--normal);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
- 
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  font-size: calc(5px + 2vmin);
+  color: var(--light);
 }
-.header>button{
+.header>a{
   all:unset;
   cursor: pointer;
+  font-family: var(--textFont)
 }
 .header-name{
-  color: var(--secondary) ;
+  color: var(--clay) ;
+  font-family: var(--headFont);
 }
-.header>button:hover {
-  color: var(--secondary);
+.header>a:hover {
+  color: var(--clay);
 }
 .main{
  
@@ -33,6 +42,7 @@ body{
   flex-direction: column;
   align-items: center;
   background-image: url("../src/Images/mountains.jpg");
+  border: 5px solid var(--light);
 }
 .main-image{
   width: 300px;
@@ -49,17 +59,186 @@ body{
 }
 .main-name{
   margin-top: 6rem;
+  font-family: var(--headFont);
+  color: var(--secondary)
 }
 .main-title{
   margin-top: 6rem;
+  font-family: var(--textFont);
+  color: var(--secondary )
+
+}
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 5px solid var(--clay);
+  align-content: center;
+
+}
+.about-section{
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.about-photo{
+  grid-column-start: 1;
+  width: 350px;
+  height: 300px;
+  margin-top: 5rem;
+  border: 5px solid var(--light);
+  margin-left: 1rem;
+}
+.about-title{
+  
+  font-size:calc(10px + 4vmin);
+  color:var(--clay);
+  font-family: var(--headFont);
+
+}
+.about-desc{
+  
+  font-size: 18px;
+  font-family: var(--textFont);
+  color:var(--light);
+  line-height: 30px;
+  max-width: 46ch;
+}
+.about-list{
+  list-style: none;
+  columns: 2;
+}
+.about-list>li::before{
+   content: "\1F892";  
+  font-size: 20px;
+  font-weight: bold; 
+  color:var(--clay);
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+}
+.about-act{
+  font-size: 30px;
+  font-family: var(--headFont);
+  color:var(--clay)
+}
+.about-list>li{
+  font-size: 18px;
+  color:var(--light);
+  font-family:var(--textFon)
 }
 .skills{
- display:grid;
-  margin-top:2rem;
-  justify-content: center;
-  grid-template-columns: repeat(3,30rem);
-  grid-template-rows: minmax(2rem,auto) repeat(2,40rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:var(--normal);
+  border: 5px solid var(--primary);
 }
+.skills-heading{
+  font-size:calc(10px + 4vmin);
+ color:var(--primary);
+ font-family: var(--headFont);
+ margin-top: 5rem;
+}
+.skills-section{
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2,30rem);
+  grid-template-rows: minmax(2rem,auto) repeat(2,40rem);
+  margin-bottom: 3rem;
+
+}
+.projects-header{
+  text-align: center;
+  font-size:calc(10px + 4vmin);
+  color:var(--clay);
+  font-family: var(--headFont);
+  margin-bottom: 10rem;
+}
+.projects{
+  border:5px solid var(--light)
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color:var(--normal);
+  border: 5px solid var(--primary);
+}
+
+.email-info{
+  display: flex;
+  margin-right: 20%;
+  margin-bottom: 10%;
+
+}
+.email-heading{
+  font-size:calc(10px + 4vmin);
+  color:var(--clay);
+  font-family: var(--headFont);
+}
+.email-contact{
+  font-size: 20px;
+  font-family: var(--textFont);
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.email-name{
+  width: 75%;
+  border-radius: 5px;
+  border:2px solid var(--primary);
+}
+.email-subject{
+  position: relative;
+  width: 75%;
+  height: 35px;
+  left:135px;
+  border-radius: 5px;
+  border:2px solid var(--primary)  
+}
+.email-message{
+  width: 700px;
+  height: 200px;
+  border-radius: 10px;
+  border:3px solid var(--primary)
+} 
+.email-send{
+  all: unset;
+  cursor: pointer;
+  width: 75px;
+  border-radius: 5px;
+  border:2px solid var(--primary);
+  background-color: var(--clay);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: var(--textFont);
+  color:var(--light)
+}
+.email-send:hover{
+    background-color: var(--primary);
+}
+.email-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+.email-git{
+    position: relative;
+    left: 40px;
+}
+
+
+
+
 
 
 
