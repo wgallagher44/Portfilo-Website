@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.72e35d65.css",
-    "main.js": "/static/js/main.6e7b4988.js",
-    "static/media/profile.jpg": "/static/media/profile.ffdbb618aa802f9dd240.jpg",
-    "static/media/mountains.jpg": "/static/media/mountains.b03483fb73061c9b71f2.jpg",
-    "static/media/kotlin_logo.png": "/static/media/kotlin_logo.32c45a57db288225da11.png",
-    "static/media/react_logo.png": "/static/media/react_logo.8a6fc0a24a800d1e0f4a.png",
-    "static/media/python_logo.png": "/static/media/python_logo.67a96446f70ae7be72e9.png",
-    "static/media/SummerIntership2022_GallagherFinal.pdf": "/static/media/SummerIntership2022_GallagherFinal.60144fbfd39023fde858.pdf",
-    "static/media/java_logo.jpeg": "/static/media/java_logo.39e1b305da5b35f46d77.jpeg",
-    "static/media/about_photo.jpg": "/static/media/about_photo.4d31856898b3d435acd2.jpg",
-    "static/media/linkedIn_icon.png": "/static/media/linkedIn_icon.66ffd29ac1bb3de67249.png",
-    "static/media/c++_logo.png": "/static/media/c++_logo.053a898d752aef72651e.png",
-    "static/media/geofood_logo.png": "/static/media/geofood_logo.2ef92ead7386ac64c423.png",
-    "static/media/c_logo.png": "/static/media/c_logo.bbbbbabc8c191bfb99bf.png",
-    "static/media/calculator.png": "/static/media/calculator.c7c036a8d09c43e851f4.png",
-    "index.html": "/index.html",
-    "main.72e35d65.css.map": "/static/css/main.72e35d65.css.map",
-    "main.6e7b4988.js.map": "/static/js/main.6e7b4988.js.map"
+    "main.css": "/Portofilo-Website/static/css/main.30c1d512.css",
+    "main.js": "/Portofilo-Website/static/js/main.39cd12f1.js",
+    "static/media/profile.jpg": "/Portofilo-Website/static/media/profile.ffdbb618aa802f9dd240.jpg",
+    "static/media/mountains.jpg": "/Portofilo-Website/static/media/mountains.b03483fb73061c9b71f2.jpg",
+    "static/media/kotlin_logo.png": "/Portofilo-Website/static/media/kotlin_logo.32c45a57db288225da11.png",
+    "static/media/react_logo.png": "/Portofilo-Website/static/media/react_logo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/python_logo.png": "/Portofilo-Website/static/media/python_logo.67a96446f70ae7be72e9.png",
+    "static/media/SummerIntership2022_GallagherFinal.pdf": "/Portofilo-Website/static/media/SummerIntership2022_GallagherFinal.60144fbfd39023fde858.pdf",
+    "static/media/java_logo.jpeg": "/Portofilo-Website/static/media/java_logo.39e1b305da5b35f46d77.jpeg",
+    "static/media/about_photo.jpg": "/Portofilo-Website/static/media/about_photo.4d31856898b3d435acd2.jpg",
+    "static/media/linkedIn_icon.png": "/Portofilo-Website/static/media/linkedIn_icon.66ffd29ac1bb3de67249.png",
+    "static/media/c++_logo.png": "/Portofilo-Website/static/media/c++_logo.053a898d752aef72651e.png",
+    "static/media/geofood_logo.png": "/Portofilo-Website/static/media/geofood_logo.2ef92ead7386ac64c423.png",
+    "static/media/c_logo.png": "/Portofilo-Website/static/media/c_logo.bbbbbabc8c191bfb99bf.png",
+    "static/media/calculator.png": "/Portofilo-Website/static/media/calculator.c7c036a8d09c43e851f4.png",
+    "index.html": "/Portofilo-Website/index.html",
+    "main.30c1d512.css.map": "/Portofilo-Website/static/css/main.30c1d512.css.map",
+    "main.39cd12f1.js.map": "/Portofilo-Website/static/js/main.39cd12f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.72e35d65.css",
-    "static/js/main.6e7b4988.js"
+    "static/css/main.30c1d512.css",
+    "static/js/main.39cd12f1.js"
   ]
 }
