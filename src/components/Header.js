@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../Images/SummerIntership2022_GallagherFinal.pdf"
+import resume from "../Images/Resume_Gallagher.pdf"
 import script from "./script"
 function Header(){
     return(
